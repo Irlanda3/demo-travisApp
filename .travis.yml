@@ -1,6 +1,7 @@
 language: python
 python:
   -3.7.1
+os: windows
 cache: yarn
 
 install:
@@ -12,8 +13,8 @@ script:
 
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  cleanup: true
+  token: $GITHUB_TOKEN
   on:
     branch: master
 
