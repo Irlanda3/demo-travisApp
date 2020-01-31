@@ -1,4 +1,6 @@
 language: python
+include:
+  - os : windows
 python:
   - 2.7
   - 3.5
