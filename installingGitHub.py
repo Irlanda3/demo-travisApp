@@ -14,5 +14,7 @@ en el control shift p  pero le puse git clone y dentro de ese repositorio abri i
     git add .
     git commit -m "updated"
     git push origin master
+
+    tuve que instalar una mugrosa extension para visual code de yml para que hiciera el buld
 '''
 print("Hello enero")
