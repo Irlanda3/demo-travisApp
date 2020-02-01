@@ -1,27 +1,4 @@
 language: python
-python:
-  -3.7.1
-os: windows
-cache: pip
 
-install:
-  - pip install -r requirements.txt
-
-script: 
-  - python tests.py
-
-stages:
-  - compile
-  - test
-
-deploy:
-  provider: pages
-  cleanup: true
-  token: $GITHUB_TOKEN
-  on:
-    branch: master
-
-
-     
-
-
+script:
+  - pytest
