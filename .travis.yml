@@ -10,6 +10,10 @@ install:
 script: 
   - python tests.py
 
+stages:
+  - compile
+  - test
+
 deploy:
   provider: pages
   cleanup: true
