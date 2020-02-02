@@ -1,11 +1,10 @@
 language: python
-os:
-  - windows
-install:
-  #- pip install -r requirements.txt
-  - pip install pytest 
-script: 
+
+# install:
+#   #- pip install -r requirements.txt
+#   - pip install pytest 
+script: python intallingGitHub.py
   #- pytest installingGitHub.py
-  - python [...]
+  #- python [...]
   #- #installingGitHub.py
   
