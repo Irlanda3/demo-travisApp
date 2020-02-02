@@ -4,5 +4,6 @@ install:
   #- pip install -r requirements.txt
   - pip install pytest -v
 script:
-  - pytest installingGitHub.py
+  #- pytest installingGitHub.py
+  - python -m pytest [...]
   #- #installingGitHub.py
