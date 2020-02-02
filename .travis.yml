@@ -5,5 +5,6 @@ install:
   - pip install pytest 
 script:
   #- pytest installingGitHub.py
-  - python [...]
+ #python [...]
   #- #installingGitHub.py
+  - pytest
