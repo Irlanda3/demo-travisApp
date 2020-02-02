@@ -7,4 +7,4 @@ script:
   #- pytest installingGitHub.py
  #python [...]
   #- #installingGitHub.py
-  - pytest
+  - pytest test_*.py
