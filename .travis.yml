@@ -7,4 +7,5 @@ language: python
   #- pytest installingGitHub.py
   #- python [...]
   #- #installingGitHub.py
-  
+script:
+  - make build 
