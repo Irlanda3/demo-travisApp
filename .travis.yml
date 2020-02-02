@@ -4,8 +4,8 @@ os:
 install:
   #- pip install -r requirements.txt
   - pip install pytest 
-script:
+script: make test
   #- pytest installingGitHub.py
  #python [...]
   #- #installingGitHub.py
-  - make test
+  
